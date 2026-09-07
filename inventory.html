@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Inventory Manager | The Digital Storefront</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>The</span> Digital Storefront
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#demos">Demos</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <a href="index.html#contact" class="nav-button">
+            Get Started
+        </a>
+
+    </header>
+
+
+    <!-- INVENTORY PAGE -->
+
+    <main class="inventory-page">
+
+        <!-- HEADER -->
+
+        <div class="inventory-header">
+
+            <div>
+
+                <p class="hero-label">
+                    LIVE DEMO
+                </p>
+
+                <h1>
+                    Inventory Manager
+                </h1>
+
+                <p>
+                    Keep track of your products and stock in one place.
+                </p>
+
+            </div>
+
+            <a href="index.html#demos" class="secondary-button">
+                ← Back to Demos
+            </a>
+
+        </div>
+
+
+        <!-- SUMMARY CARDS -->
+
+        <div class="inventory-cards">
+
+            <div class="inventory-card">
+
+                <span>Total Products</span>
+
+                <strong>
+                    248
+                </strong>
+
+                <small>
+                    All products
+                </small>
+
+            </div>
+
+
+            <div class="inventory-card">
+
+                <span>In Stock</span>
+
+                <strong>
+                    214
+                </strong>
+
+                <small>
+                    Available products
+                </small>
+
+            </div>
+
+
+            <div class="inventory-card">
+
+                <span>Low Stock</span>
+
+                <strong>
+                    18
+                </strong>
+
+                <small>
+                    Need restocking
+                </small>
+
+            </div>
+
+
+            <div class="inventory-card">
+
+                <span>Out of Stock</span>
+
+                <strong>
+                    16
+                </strong>
+
+                <small>
+                    Currently unavailable
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="inventory-section">
+
+            <div class="inventory-section-header">
+
+                <div>
+
+                    <h2>
+                        Products
+                    </h2>
+
+                    <p>
+                        Manage your products and stock levels
+                    </p>
+
+                </div>
+
+                <button
+                    class="primary-button"
+                    onclick="addProduct()">
+                    + Add Product
+                </button>
+
+            </div>
+
+
+            <!-- PRODUCT TABLE -->
+
+            <div class="inventory-table">
+
+                <div class="inventory-row table-heading">
+
+                    <span>Product</span>
+
+                    <span>Category</span>
+
+                    <span>Stock</span>
+
+                    <span>Price</span>
+
+                    <span>Status</span>
+
+                </div>
+
+
+                <div class="inventory-row">
+
+                    <span>
+                        Classic T-Shirt
+                    </span>
+
+                    <span>
+                        Clothing
+                    </span>
+
+                    <span>
+                        45
+                    </span>
+
+                    <span>
+                        ₹599
+                    </span>
+
+                    <span class="stock-good">
+                        In Stock
+                    </span>
+
+                </div>
+
+
+                <div class="inventory-row">
+
+                    <span>
+                        Blue Jeans
+                    </span>
+
+                    <span>
+                        Clothing
+                    </span>
+
+                    <span>
+                        8
+                    </span>
+
+                    <span>
+                        ₹1,299
+                    </span>
+
+                    <span class="stock-low">
+                        Low Stock
+                    </span>
+
+                </div>
+
+
+                <div class="inventory-row">
+
+                    <span>
+                        Running Shoes
+                    </span>
+
+                    <span>
+                        Footwear
+                    </span>
+
+                    <span>
+                        0
+                    </span>
+
+                    <span>
+                        ₹1,899
+                    </span>
+
+                    <span class="stock-out">
+                        Out of Stock
+                    </span>
+
+                </div>
+
+
+                <div class="inventory-row">
+
+                    <span>
+                        Cotton Shirt
+                    </span>
+
+                    <span>
+                        Clothing
+                    </span>
+
+                    <span>
+                        32
+                    </span>
+
+                    <span>
+                        ₹799
+                    </span>
+
+                    <span class="stock-good">
+                        In Stock
+                    </span>
+
+                </div>
+
+
+                <div class="inventory-row">
+
+                    <span>
+                        Leather Wallet
+                    </span>
+
+                    <span>
+                        Accessories
+                    </span>
+
+                    <span>
+                        5
+                    </span>
+
+                    <span>
+                        ₹499
+                    </span>
+
+                    <span class="stock-low">
+                        Low Stock
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- DEMO MESSAGE -->
+
+        <div class="demo-note">
+
+            <strong>
+                💡 Simple inventory management
+            </strong>
+
+            <p>
+                Keep track of your products, prices and stock
+                levels without complicated software.
+            </p>
+
+            <a href="index.html#contact" class="primary-button">
+                Want This For Your Business? →
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            The Digital Storefront
+        </div>
+
+        <p>
+            Websites & Business Management Systems
+        </p>
+
+        <p class="copyright">
+            © 2026 The Digital Storefront. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- DEMO JAVASCRIPT -->
+
+    <script>
+
+        function addProduct() {
+
+            alert(
+                "Demo: A real version can let you add products, prices, categories and stock levels."
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>

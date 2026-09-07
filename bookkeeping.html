@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bookkeeping System | The Digital Storefront</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <span>The</span> Digital Storefront
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="index.html#services">Services</a>
+            <a href="index.html#demos">Demos</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+
+        <a href="index.html#contact" class="nav-button">
+            Get Started
+        </a>
+
+    </header>
+
+
+    <!-- BOOKKEEPING PAGE -->
+
+    <main class="bookkeeping-page">
+
+        <!-- HEADER -->
+
+        <div class="bookkeeping-header">
+
+            <div>
+
+                <p class="hero-label">
+                    LIVE DEMO
+                </p>
+
+                <h1>
+                    Simple Bookkeeping
+                </h1>
+
+                <p>
+                    Keep your business income and expenses organized.
+                </p>
+
+            </div>
+
+            <a href="index.html#demos" class="secondary-button">
+                ← Back to Demos
+            </a>
+
+        </div>
+
+
+        <!-- SUMMARY CARDS -->
+
+        <div class="bookkeeping-cards">
+
+            <div class="bookkeeping-card">
+
+                <span>Total Income</span>
+
+                <strong>
+                    ₹1,28,450
+                </strong>
+
+                <small>
+                    All time income
+                </small>
+
+            </div>
+
+
+            <div class="bookkeeping-card">
+
+                <span>Total Expenses</span>
+
+                <strong>
+                    ₹42,850
+                </strong>
+
+                <small>
+                    All time expenses
+                </small>
+
+            </div>
+
+
+            <div class="bookkeeping-card">
+
+                <span>Net Profit</span>
+
+                <strong>
+                    ₹85,600
+                </strong>
+
+                <small>
+                    Income after expenses
+                </small>
+
+            </div>
+
+
+            <div class="bookkeeping-card">
+
+                <span>Total Records</span>
+
+                <strong>
+                    86
+                </strong>
+
+                <small>
+                    Income & expenses
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <div class="bookkeeping-actions">
+
+            <h2>
+                Quick Actions
+            </h2>
+
+            <div class="action-buttons">
+
+                <button onclick="addIncome()">
+                    + Add Income
+                </button>
+
+                <button onclick="addExpense()">
+                    − Add Expense
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- RECORDS -->
+
+        <div class="bookkeeping-section">
+
+            <div class="bookkeeping-section-header">
+
+                <div>
+                    <h2>
+                        Recent Records
+                    </h2>
+
+                    <p>
+                        Your latest income and expenses
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="bookkeeping-table">
+
+                <div class="bookkeeping-row table-heading">
+
+                    <span>Date</span>
+
+                    <span>Description</span>
+
+                    <span>Type</span>
+
+                    <span>Amount</span>
+
+                </div>
+
+
+                <div class="bookkeeping-row">
+
+                    <span>
+                        07 Sep 2026
+                    </span>
+
+                    <span>
+                        Customer Payment
+                    </span>
+
+                    <span class="book-income">
+                        Income
+                    </span>
+
+                    <strong>
+                        +₹8,500
+                    </strong>
+
+                </div>
+
+
+                <div class="bookkeeping-row">
+
+                    <span>
+                        06 Sep 2026
+                    </span>
+
+                    <span>
+                        Shop Supplies
+                    </span>
+
+                    <span class="book-expense">
+                        Expense
+                    </span>
+
+                    <strong>
+                        -₹2,500
+                    </strong>
+
+                </div>
+
+
+                <div class="bookkeeping-row">
+
+                    <span>
+                        05 Sep 2026
+                    </span>
+
+                    <span>
+                        Product Sale
+                    </span>
+
+                    <span class="book-income">
+                        Income
+                    </span>
+
+                    <strong>
+                        +₹4,200
+                    </strong>
+
+                </div>
+
+
+                <div class="bookkeeping-row">
+
+                    <span>
+                        03 Sep 2026
+                    </span>
+
+                    <span>
+                        Electricity Bill
+                    </span>
+
+                    <span class="book-expense">
+                        Expense
+                    </span>
+
+                    <strong>
+                        -₹1,800
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- DEMO MESSAGE -->
+
+        <div class="demo-note">
+
+            <strong>
+                💡 Simple bookkeeping for small businesses
+            </strong>
+
+            <p>
+                Record your income and expenses and easily
+                see how your business is performing.
+            </p>
+
+            <a href="index.html#contact" class="primary-button">
+                Want This For Your Business? →
+            </a>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-logo">
+            The Digital Storefront
+        </div>
+
+        <p>
+            Websites & Business Management Systems
+        </p>
+
+        <p class="copyright">
+            © 2026 The Digital Storefront. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- DEMO JAVASCRIPT -->
+
+    <script>
+
+        function addIncome() {
+
+            alert(
+                "Demo: A real version can let you enter the income amount, date and description."
+            );
+
+        }
+
+
+        function addExpense() {
+
+            alert(
+                "Demo: A real version can let you enter the expense amount, date and description."
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>
