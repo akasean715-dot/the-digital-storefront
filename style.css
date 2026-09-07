@@ -1474,3 +1474,45 @@ footer p {
     }
 
 }
+/* BUSINESS TRACKER - MOBILE */
+@media (max-width: 768px) {
+
+    .tracker-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+
+    .tracker-card {
+        padding: 20px;
+        min-height: 140px;
+    }
+
+}
+/* BOOKKEEPING - MOBILE */
+@media (max-width: 768px) {
+
+    .bookkeeping-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+
+    .bookkeeping-card {
+        padding: 20px;
+        min-height: 140px;
+    }
+
+}
+/* INVENTORY - MOBILE */
+@media (max-width: 768px) {
+
+    .inventory-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
+
+    .inventory-card {
+        padding: 20px;
+        min-height: 140px;
+    }
+
+}
